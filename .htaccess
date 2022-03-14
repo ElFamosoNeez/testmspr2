@@ -1,0 +1,52 @@
+AuthUserFile /mnt/c/Users/milla/Documents/NetBeansProjects/testMSPR/protego/.htpasswd
+AuthType Basic
+AuthName "My restricted Area"
+Require valid-user
+
+<Files tthor.html>
+require user tthor
+</Files>
+
+<Files tpoline.html>
+require user tpoline
+</Files>
+
+<Files ltang.html>
+require user ltang
+</Files>
+
+<Files sanakin.html>
+require user sanakin
+</Files>
+
+<Files djohnson.html>
+require user djohnson
+</Files>
+
+<Files bbruce.html>
+require user bbruce
+</Files>
+
+<Files cpierre.html>
+require user cpierre
+</Files>
+
+<Files fmanuel.html>
+require user fmanuel
+</Files>
+
+<Files bpascal.html>
+require user bpascal
+</Files>
+
+<Files ggimli.html>
+require user ggimli
+</Files>
+
+<Files hattila.html>
+require user hattila
+</Files>
+
+<Files rhagrid.html>
+require user rhagrid
+</Files>
